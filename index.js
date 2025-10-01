@@ -10,7 +10,7 @@ app.get("/dashboard", (req,res) =>{
     res.send("welcome back");
 }) 
 
-
+//server point
 app.listen(port, ()=>{
     console.log(`server runnng on ${port}`);
 })
